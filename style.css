@@ -15,3 +15,16 @@ p {
     margin-top: 0;
 }
 
+img {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    padding: 4px;
+	width: 50%
+}
+
+img:hover {
+    border-color: #007bff;
+    box-shadow: 0 6px 12px rgba(0,123,255,0.3);
+    transform: scale(1.02);
+}
